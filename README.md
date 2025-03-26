@@ -1,5 +1,13 @@
 # README
 
+## Setup
+
+I recommend the following setup:
+
+* A local copy of the `typst` compiler.  See the [installation instructions](https://github.com/typst/typst?tab=readme-ov-file#installation).  I recommend the `cargo` method.
+* Visual Studio Code with the [Tinymist Typst](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) extension
+
+## Guide
 
 * You can add new spell cards to `card-descriptions.typ` using the provided examples as a guide.  Make sure to add your cards to the `cards` array so that they appear when printed. 
 
