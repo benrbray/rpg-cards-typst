@@ -5,7 +5,11 @@
 I recommend the following setup:
 
 * A local copy of the `typst` compiler.  See the [installation instructions](https://github.com/typst/typst?tab=readme-ov-file#installation).  I recommend the `cargo` method.
-* Visual Studio Code with the [Tinymist Typst](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) extension
+* Visual Studio Code with the [Tinymist Typst](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) extension.
+
+You can also download the entire repository (click the green `Code` button in the top-left corner, then "Download as ZIP") and re-upload it to the [online Typst editor](https://typst.app/).
+
+Finally, here is a [read-only online version](https://typst.app/project/rvu9RMsq2ZASBYJ3UHW3j4) of the project viewable in the Typst app.  If you click "Join", you might be able to add the project to your personal dashboard, then duplicate it to create an editable copy.
 
 ## Guide
 
