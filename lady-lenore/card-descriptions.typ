@@ -13,7 +13,7 @@
     cardColor: colors.damageCardColor,
     cardSymbol: "action",
     cardBody: [
-      The _Gulthias Staff_ serves as a magic quarterstaff.
+      The _Gulthias Staff_ serves as a magic quarterstaff.  Has a maximum of *10 charges*.
 
       #template.sectionHeading([upon successful melee hit])
       By expending one charge,
@@ -21,6 +21,9 @@
         (icon: icons.hitpoints, effect: [Regain #heal[hitpoints] equal to the damage dealt.]),
         (icon: icons.condition, effect: [You must succeed a #(save.wisdom)(12) save or suffer short-term #condition.madness.])
       )
+
+      #template.sectionHeading([daily at dusk])
+      Replenish *1d6 + 4* charges.
     ]
   )
 );
@@ -31,7 +34,6 @@
     [Cruelty],
     [Feat (Tal'Dorei)],
     cardColor: colors.damageCardColor,
-    cardSymbol: "action",
     cardBody: [
       Per long rest, you have a number of *cruelty dice* equal to your proficiency.
 

@@ -1,5 +1,6 @@
 #let icons = (
   duration: "/icons/icon-duration.svg",
+  d6: "/icons/icon-d6.svg",
   advantage: "/icons/icon-advantage.svg",
   disadvantage: "/icons/icon-disadvantage.svg",
   action: "/icons/icon-action.svg",
