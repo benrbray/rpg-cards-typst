@@ -16,7 +16,6 @@
 #import cetz.draw: *
 #import "./design/icons.typ": icons, inlineIcon
 
-#import "/card-descriptions.typ": cards
 #import "/design/card-template.typ" as template
 #import "/design/d20.typ" as d20
 
@@ -139,14 +138,4 @@
       })
     )
   }
-}
-
-#for cs in cards.chunks(4) {
-  cardTemplatePage(
-    template.cardWidth,
-    template.cardHeight,
-    cs.map(c => {
-      (front: c.front, back: d20.d20back(c.cardColor))
-    })
-  )
 }

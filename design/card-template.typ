@@ -142,7 +142,9 @@
 )
 
 #let condition = (
+  frighten: conditionText[frighten],
   frightened: conditionText[frightened],
+  madness: conditionText[madness],
   incapacitated: conditionText[incapacitated],
   prone: conditionText[prone]
 )

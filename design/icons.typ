@@ -8,6 +8,7 @@
   hitpoints: "/icons/icon-hitpoints.svg",
   tempHitpoints: "/icons/icon-temp-hitpoints.svg",
   immune: "/icons/icon-immune.svg",
+  condition: "/icons/icon-condition.svg",
   damage: (
     weapon: "/icons/icon-damage-weapon.svg",
     spell: "/icons/icon-damage-spell.svg",
