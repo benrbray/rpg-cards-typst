@@ -1,5 +1,10 @@
 # README
 
+## License
+
+* The `typst` source code for this project is MIT-licensed.
+* The actual text appearing on cards is paraphrased from external sources, and may fall under the terms of a different license (such as OGL).
+
 ## Setup
 
 I recommend the following setup:
