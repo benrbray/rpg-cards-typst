@@ -12,7 +12,7 @@
 
 #let rotated = rotate
 
-#import "@preview/cetz:0.3.0"
+#import "@preview/cetz:0.5.2"
 #import cetz.draw: *
 #import "./design/icons.typ": icons, inlineIcon
 
